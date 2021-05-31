@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\begin{figure}[H]
+  \centering
+  \includegraphics[angle=0,width=1.0\textwidth]{${1:Filename}}
+  \caption{${2:Description}}
+  \label{fig:${1:Filename}} 
+\end{figure}
+]]></content>
+    <tabTrigger>fig</tabTrigger>
+    <description>Insert a figure block</description>
+    <scope>text.tex.latex</scope>
+</snippet>

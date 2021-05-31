@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\pagebreak
+]]></content>
+    <tabTrigger>toc</tabTrigger>
+    <description>Include table of contents</description>
+    <scope>text.tex.latex</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+%!TeX TS-program = xelatex
+%!TeX encoding = utf-8 Unicode
+\documentclass[11pt,a4paper]{article}
+\usepackage{paper}
+\title{${1:Title}}
+\author{C Kunte}
+
+\begin{document}
+
+  \maketitle
+
+\end{document}
+]]></content>
+	<tabTrigger>paper</tabTrigger>
+	<description>Insert preamble for a paper</description>
+	<scope>text.tex.latex</scope>
+</snippet>

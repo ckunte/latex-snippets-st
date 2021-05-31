@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+\begin{table}[H]
+\caption{${1:Description}}
+\label{tab:${2:tname}}
+\centering
+  \begin{tabular}{+l^c}
+  \rowstyle{\itshape}
+         Label1 & Label2 \\\\
+  Full spectrum & 0.358 \\\\
+    Narrow band & 0.343 \\\\
+  \end{tabular}
+\end{table}
+]]></content>
+    <tabTrigger>tabl</tabTrigger>
+    <description>Insert a table block</description>
+    <scope>text.tex.latex</scope>
+</snippet>

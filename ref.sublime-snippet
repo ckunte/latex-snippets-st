@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+\phantomsection\addcontentsline{toc}{section}{References}
+\begin{thebibliography}{9}
+
+\bibitem{${1:label}}
+  ${2:Author},
+  \emph{${3:Title}}, 
+  ${4:Date}.
+
+\end{thebibliography}
+]]></content>
+    <tabTrigger>ref</tabTrigger>
+    <description>Include reference block</description>
+    <scope>text.tex.latex</scope>
+</snippet>
