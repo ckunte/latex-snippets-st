@@ -3,9 +3,9 @@
 %!TeX TS-program = xelatex
 %!TeX encoding = utf-8 Unicode
 \documentclass[11pt,a4paper]{article}
-\usepackage{paper}
+\usepackage{paper} % See https://github.com/ckunte/templates/blob/master/texmf/paper.sty
 \title{${1:Title}}
-\author{C Kunte}
+\author{${2:Author}}
 
 \begin{document}
 

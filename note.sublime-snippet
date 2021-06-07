@@ -3,7 +3,7 @@
 %!TeX TS-program = xelatex
 %!TeX encoding = utf-8 Unicode
 \documentclass[11pt,a4paper]{article}
-\usepackage{ckunte}
+\usepackage{ckunte} % See https://github.com/ckunte/templates/blob/master/texmf/ckunte.sty
 \title{${1:Title}}
 \author{C Kunte}
 
