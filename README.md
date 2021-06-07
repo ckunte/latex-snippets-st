@@ -22,3 +22,10 @@ This repository contains the following custom snippets:
 Type a pre-defined keyword, say, `fig` and press <kbd>tab</kbd>, and it produces a full block of figure LaTeX code. See a demonstration below.
 
 ![Snippets demo in Sublime Text](./st-snippets.gif)
+
+## How to add these snippets to Sublime Text
+
+This is done in two steps, viz., (a) add a repository and then (b) activate it. The how to is described below.
+
+1. From _Tools > Command Palette..._ type _Add Repository_, and in the input box, enter `https://github.com/ckunte/latex-snippets-st`
+2. From _Tools > Command Palette..._ type _Install Package_, and in the result list, type `latex-snippets-st` and select the thus found package.
