@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>fig</tabTrigger>
+  <content><![CDATA[
 \begin{figure}[H]
   \centering
   \includegraphics[angle=0,width=1.0\textwidth]{${1:Filename}}
@@ -7,7 +9,5 @@
   \label{fig:${1:Filename}} 
 \end{figure}
 ]]></content>
-    <tabTrigger>fig</tabTrigger>
-    <description>Insert a figure block</description>
-    <scope>text.tex.latex</scope>
+  <description>Insert a figure block</description>
 </snippet>

@@ -1,0 +1,30 @@
+[
+    // LaTeX: strongly emphasise selected text
+    { 
+        "keys": ["super+shift+b"],
+        "command": "insert_snippet",
+        "args": {"contents": "\\textbf{${0:$SELECTION}}"},
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }] 
+    },
+    // LaTeX: emphasise selected text
+    { 
+        "keys": ["super+shift+i"],
+        "command": "insert_snippet",
+        "args": {"contents": "\\emph{${0:$SELECTION}}"},
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
+    },
+    // LaTeX: small caps selected text
+    { 
+        "keys": ["super+shift+k"],
+        "command": "insert_snippet",
+        "args": {"contents": "\\textsc{${0:$SELECTION}}"},
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
+    },
+    // LaTeX: teletype selected text
+    { 
+        "keys": ["ctrl+shift+7"],
+        "command": "insert_snippet",
+        "args": {"contents": "\\textsc{${0:$SELECTION}}"},
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
+    },
+]

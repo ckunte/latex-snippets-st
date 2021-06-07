@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>tabl</tabTrigger>
+  <content><![CDATA[
 \begin{table}[H]
 \caption{${1:Description}}
 \label{tab:${2:tname}}
@@ -12,7 +14,5 @@
   \end{tabular}
 \end{table}
 ]]></content>
-    <tabTrigger>tabl</tabTrigger>
-    <description>Insert a table block</description>
-    <scope>text.tex.latex</scope>
+  <description>Insert a table block</description>
 </snippet>

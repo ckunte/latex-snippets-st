@@ -1,15 +1,11 @@
 <snippet>
-    <content><![CDATA[
-\pagebreak
-        
+  <scope>text.tex.latex</scope>
+  <tabTrigger>apdx</tabTrigger>
+  <content><![CDATA[\pagebreak
 \appendix
-\phantomsection\addcontentsline{toc}{section}{Appendices}
-\section*{Appendices} % (fold)
-\label{sec:appendices}
-  
-% section appendices (end)
+
+  $0  
+
 ]]></content>
-    <tabTrigger>apdx</tabTrigger>
-    <description>Insert an appendix section</description>
-    <scope>text.tex.latex</scope>
+  <description>Insert an appendix section</description>
 </snippet>
