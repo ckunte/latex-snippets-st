@@ -1,6 +1,6 @@
 # Custom LaTeX snippets for use in Sublime Text
 
-Sublime Text's built-in LaTeX package already includes a good number of snippets. This folder includes a few used by the author. Place `latex-snippets-st` folder under _Sublime Text > Data > Packages > User_, which can be accessed from _Preferences > Browse Packages_.
+Sublime Text's built-in LaTeX package already includes a good number of snippets. This repository includes a few that are complimentary to the built-in package. See [how-to install](https://github.com/ckunte/latex-snippets-st#how-to-add-these-snippets-to-sublime-text) below.
 
 This repository contains the following custom snippets:
 
