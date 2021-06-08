@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>ref</tabTrigger>
+  <content><![CDATA[
 \phantomsection\addcontentsline{toc}{section}{References}
 \begin{thebibliography}{9}
 
@@ -10,7 +12,5 @@
 
 \end{thebibliography}
 ]]></content>
-    <tabTrigger>ref</tabTrigger>
-    <description>Include reference block</description>
-    <scope>text.tex.latex</scope>
+  <description>Include reference block</description>
 </snippet>

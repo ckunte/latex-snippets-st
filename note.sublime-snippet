@@ -1,19 +1,21 @@
 <snippet>
-	<content><![CDATA[
-%!TeX TS-program = xelatex
+  <scope>text.tex.latex</scope>
+  <tabTrigger>note</tabTrigger>
+  <content><![CDATA[
+%!TeX ts-program = xelatex
 %!TeX encoding = utf-8 Unicode
 \documentclass[11pt,a4paper]{article}
 \usepackage{ckunte} % See https://github.com/ckunte/templates/blob/master/texmf/ckunte.sty
 \title{${1:Title}}
-\author{C Kunte}
+\author{${2:Author}}
 
 \begin{document}
 
   \maketitle
 
+  $0
+
 \end{document}
 ]]></content>
-	<tabTrigger>note</tabTrigger>
-	<description>Insert a note template</description>
-	<scope>text.tex.latex</scope>
+  <description>Insert a note template</description>
 </snippet>

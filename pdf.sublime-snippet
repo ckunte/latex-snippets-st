@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>pdf</tabTrigger>
+  <content><![CDATA[
 \includepdf[scale=1.0,angle=0,pages={-},pagecommand={}]{${1:Filename}.pdf}
 ]]></content>
-    <tabTrigger>pdf</tabTrigger>
-    <description>Include a PDF file</description>
-    <scope>text.tex.latex</scope>
+  <description>Include a PDF file</description>
 </snippet>

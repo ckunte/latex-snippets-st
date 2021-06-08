@@ -1,12 +1,14 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>sum</tabTrigger>
+  <content><![CDATA[
 \phantomsection\addcontentsline{toc}{section}{Summary}
 \section*{Summary} % (fold)
 \label{sec:sum}
   
+  $0
+
 % section sum (end)
 ]]></content>
-    <tabTrigger>sum</tabTrigger>
-    <description>Insert a summary section</description>
-    <scope>text.tex.latex</scope>
+  <description>Insert a summary section</description>
 </snippet>

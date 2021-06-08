@@ -1,6 +1,8 @@
 <snippet>
-    <content><![CDATA[
-%!TeX te-program = xelatex
+  <scope>text.tex.latex</scope>
+  <tabTrigger>letter</tabTrigger>
+  <content><![CDATA[
+%!TeX ts-program = xelatex
 %!TeX encoding = utf-8 Unicode
 \documentclass[a4paper,12pt]{letter}
 \usepackage[margin=1.25in]{geometry}
@@ -35,9 +37,6 @@ Blah.
 \end{letter}
 \includepdf[pages={-},scale=0.85]{document.pdf} % atachments
 \end{document}
-
 ]]></content>
-    <tabTrigger>letter</tabTrigger>
-    <description>Insert a letter template</description>
-    <scope>text.tex.latex</scope>
+  <description>Insert a letter template</description>
 </snippet>

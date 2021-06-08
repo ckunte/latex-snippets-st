@@ -1,5 +1,7 @@
 <snippet>
-	<content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>paper</tabTrigger>
+  <content><![CDATA[
 %!TeX TS-program = xelatex
 %!TeX encoding = utf-8 Unicode
 \documentclass[11pt,a4paper]{article}
@@ -13,7 +15,5 @@
 
 \end{document}
 ]]></content>
-	<tabTrigger>paper</tabTrigger>
-	<description>Insert preamble for a paper</description>
-	<scope>text.tex.latex</scope>
+  <description>Insert preamble for a paper</description>
 </snippet>

@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[
+  <scope>text.tex.latex</scope>
+  <tabTrigger>toc</tabTrigger>
+  <content><![CDATA[
 \tableofcontents
 
 \listoffigures
@@ -8,7 +10,5 @@
 
 \pagebreak
 ]]></content>
-    <tabTrigger>toc</tabTrigger>
-    <description>Include table of contents</description>
-    <scope>text.tex.latex</scope>
+  <description>Include table of contents</description>
 </snippet>
