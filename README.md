@@ -10,6 +10,7 @@ This repository contains the following custom snippets:
 | `paper` + <kbd>tab</kbd>  | Inserts a paper template     |
 | `sum` + <kbd>tab</kbd>    | Inserts a summary block      |
 | `toc` + <kbd>tab</kbd>    | Inserts a TOC block          |
+| `sc` + <kbd>tab</kbd>     | Small caps snippet           |
 | `fig` + <kbd>tab</kbd>    | Inserts a figure block       |
 | `letter` + <kbd>tab</kbd> | Inserts a letter template    |
 | `tabl` + <kbd>tab</kbd>   | Inserts a table block        |
