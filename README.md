@@ -17,6 +17,8 @@ This repository contains the following custom snippets:
 | `ref` + <kbd>tab</kbd>    | Inserts a reference block    |
 | `apdx` + <kbd>tab</kbd>   | Inserts an appendix block    |
 | `pdf` + <kbd>tab</kbd>    | Inserts an `includepdf` line |
+| `tsub` + <kbd>tab</kbd>   | Inserts textsubscript        |
+| `tsup` + <kbd>tab</kbd>   | Inserts textsuperscript      |
 
 ## How snippets work
 
