@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\textsubscript{$1}$0
+]]></content>
+    <tabTrigger>sub</tabTrigger>
+    <description>Text subscript</description>
+    <scope>text.tex.latex</scope>
+</snippet>
