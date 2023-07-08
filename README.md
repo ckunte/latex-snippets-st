@@ -57,6 +57,12 @@ Here's a demo.
   <figcaption>Key-bindings in action.</figcaption>
 </figure>
 
+This is now enabled by the included sublime key file in the package.
+
+* * *
+
+### Superseded manual settings for the above key bindings
+
 To be able to do this, I park the following key-binding instructions into _Settings &rarr; Key Bindings &rarr; Default (OS).sublime-keymap_. The context part below ensures that these only work with LaTeX files.
 
 ```json
