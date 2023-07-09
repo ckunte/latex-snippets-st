@@ -46,76 +46,18 @@ Writing down Sublime Text key-bindings for common triggers that have escaped my 
 
 | Key combination                                    | Result                                     |
 | -------------------------------------------------- | ------------------------------------------ |
-| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>b</kbd> | Bold (wraps text in `\textbf{}`)       |
-| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> | Italics (wraps text in `\emph{}`)      |
-| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>k</kbd> | Small caps (wraps text in `\textsc{}`) |
+| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>b</kbd> | Bold (wraps text in `\textbf{}`)           |
+| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> | Italics (wraps text in `\emph{}`)          |
+| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>k</kbd> | Small caps (wraps text in `\textsc{}`)     |
+| <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>7</kbd> | Tele-type text (wraps text in `\texttt{}`) |
 
 Here's a demo.
 
 <figure>
   <video src="https://user-images.githubusercontent.com/177423/239564730-68db67a9-56de-4265-a4f1-b58290e31ac1.mov" data-canonical-src="https://user-images.githubusercontent.com/177423/239564730-68db67a9-56de-4265-a4f1-b58290e31ac1.mov" controls="controls" muted="muted"></video>
-  <figcaption>Key-bindings in action.</figcaption>
+  <figcaption>LaTeX key-bindings in action in Sublime Text.</figcaption>
 </figure>
 
 This is now enabled by the included sublime key file in the package.
 
-* * *
-
-### Superseded manual settings for the above key bindings
-
-To be able to do this, I park the following key-binding instructions into _Settings &rarr; Key Bindings &rarr; Default (OS).sublime-keymap_. The context part below ensures that these only work with LaTeX files.
-
-```json
-[
-    // LaTeX: strongly emphasise selected text
-    { 
-        "keys": ["super+shift+b"],
-        "command": "insert_snippet",
-        "args": {"contents": "\\textbf{${0:$SELECTION}}"},
-        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }] 
-    },
-    // LaTeX: emphasise selected text
-    { 
-        "keys": ["super+shift+i"],
-        "command": "insert_snippet",
-        "args": {"contents": "\\emph{${0:$SELECTION}}"},
-        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
-    },
-    // LaTeX: small caps selected text
-    { 
-        "keys": ["super+shift+k"],
-        "command": "insert_snippet",
-        "args": {"contents": "\\textsc{${0:$SELECTION}}"},
-        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
-    },
-    // LaTeX: teletype selected text
-    { 
-        "keys": ["ctrl+shift+7"],
-        "command": "insert_snippet",
-        "args": {"contents": "\\textsc{${0:$SELECTION}}"},
-        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
-    },
-]
-```
-
-Optionally, adding the following line to the preamble (style) forces title case words into all small caps. This redefines the wrap tag as `\sc{}`, converts the word first to lowercase, and then applies small caps tag (`\textsc{}`) to it.
-
-    \renewcommand*{\sc}[1]{\textsc{\MakeLowercase{#1}}}
-
-To use `\sc{}` tag, replace small caps key-binding from above to as below, in which the only change is that the `args` line replaces `\textsc{}` with `\sc{}`:
-
-```json
-[
-    // LaTeX: small caps selected text
-    { 
-        "keys": ["super+shift+k"],
-        "command": "insert_snippet",
-        "args": {"contents": "\\sc{${0:$SELECTION}}"},
-        "context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
-    },
-]
-```
-[^1]: In the key combinations above, <kbd>ctrl</kbd> my first preference could not be used, since some of these are already taken --- in OS-specific default key-bindings in Sublime Text. Therefore, for consistency, I chose <kbd>super</kbd> instead. To prevent impairing core functionality of Sublime Text, it is best to check the list of default key-bindings first, and avoid using them in custom key-bindings.
-
-[lp]: https://github.com/ckunte/latex-snippets-st "Custom LaTeX snippets for use in Sublime Text by ckunte."
 [st]: https://www.sublimetext.com "Text editing done right."
